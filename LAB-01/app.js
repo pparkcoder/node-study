@@ -6,7 +6,7 @@ const app = express(); // 다운시 npm install express -s (or --save)
 
 
 // 라우팅
-const home = require("./src/home"); // 해당 경로에서 use의 첫번째 param에 맞는 경로를 찾아 실행
+const home = require("./src/routes/home"); // 해당 경로에서 use의 첫번째 param에 맞는 경로를 찾아 실행
 
 
 // 뷰 사용 후 앱 셋팅
